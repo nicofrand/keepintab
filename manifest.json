@@ -1,16 +1,17 @@
 {
     "manifest_version": 2,
-    "name": "OpenInTab",
+    "name": "KeepInTab",
     "version": "1.0",
     "description": "Removes the target attribute from links.",
+    "credits": "Icon made from http://www.onlinewebfonts.com/icon is licensed by CC BY 3.0",
     "icons": {
         "48": "icons/icon.svg",
         "96": "icons/icon.svg"
     },
     "content_scripts": [
-      {
-          "matches": ["<all_urls>"],
-          "js": ["openintab.js"]
-      }
+        {
+            "matches": ["<all_urls>"],
+            "js": ["keepintab.js"]
+        }
   ]
 }
