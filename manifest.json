@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "OpenInTab",
+    "version": "1.0",
+    "description": "Removes the target attribute from links.",
+    "icons": {
+        "48": "icons/icon.svg",
+        "96": "icons/icon.svg"
+    },
+    "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": ["openintab.js"]
+      }
+  ]
+}
