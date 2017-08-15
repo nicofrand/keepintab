@@ -1,9 +1,8 @@
 {
     "manifest_version": 2,
     "name": "KeepInTab",
-    "version": "1.0",
-    "description": "Removes the target attribute from links.",
-    "credits": "Icon made from http://www.onlinewebfonts.com/icon is licensed by CC BY 3.0",
+    "version": "1.0.2",
+    "description": "Removes the target attribute (except for named targets) from links, which forces the browser to open every link in the current tab instead of a new tab or window .",
     "icons": {
         "48": "icons/icon.svg",
         "96": "icons/icon.svg"
