@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "KeepInTab",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "Removes the target attribute (except for named targets) from links, which forces the browser to open every link in the current tab instead of a new tab or window .",
     "icons": {
         "48": "icons/icon.svg",
